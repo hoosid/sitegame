@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(#fff,rgb(119, 119, 231));
+    height: 100vh;
+    
+}
+p{
+    font-size: 25px;
+    text-shadow: 2px 2px 3px red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    text-align: center;
+    color: rgb(248, 170, 0);
+    text-shadow: 2px 2px 3px blue;
+animation: x 3s;
+}
+div{
+    text-align: center;
+    
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+header div,#hoo{
+    animation: x 2s ;
+}
+header a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: right;
+}
+@keyframes x{
+    0%{color: blue;font-size: 30px;}
+    50%{color: black; font-size: 5px;}
+    100%{color: red;font-size: 30px;}
+}
+.game{
+text-align: center;
+margin: auto;
+color: #fff;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+width: 300px;
+height: 250px;
+}
+.sid1{
+background-color:red;
+padding: 5px 0;
+margin: 5px 0;
+width: 250px;
+font-weight: 500;
+}
+span{
+    color: yellow;
+}
+.sid{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    float: left;
+    margin: 2px;
+    font-size: 50px; 
+}
+.sid:hover{
+    background: black;
+    cursor: pointer;
+}

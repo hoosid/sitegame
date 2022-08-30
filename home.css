@@ -1,0 +1,42 @@
+.box1{grid-area: header;}
+.box2{grid-area: yes;}
+.box3{grid-area: no;}
+.box4{grid-area: floot;}
+.side{
+    display: grid;
+     grid-auto-rows: minmax(50px,auto);
+     background-color: blueviolet;
+     gap: 10px;
+     grid-template-areas: 
+     'header header header header header header'
+     'yes yes yes no no no'
+     
+     'floot floot floot floot floot floot';
+     
+}
+ .side >div {
+    color: aqua;
+    background-color: burlywood;
+    border: 2px solid black;
+    text-align: center;
+    
+ }
+ @keyframes x{
+    0%{background-color: red;top: 0px;};
+    50%{background-color: black;top: 100px;}
+    100%{background-color: lawngreen;top: 0px;}
+ }
+    h1{
+      text-align: center;
+      position: relative;
+      color: aqua;
+      animation: x 2s infinite;
+ }
+ footer{
+   background:red;
+   
+font-size: 15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ footer div{
+   text-align: right;}
